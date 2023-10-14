@@ -27,4 +27,4 @@ for (const i of data) {
   }
 }
 console.log(JSON.stringify(allFilePath));
-writeFileSync("output2.json", JSON.stringify(allFilePath), "utf8");
+writeFileSync("output3.json", JSON.stringify(allFilePath), "utf8");
